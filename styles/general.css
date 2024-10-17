@@ -1,0 +1,46 @@
+.principal {
+  color: #633390;
+}
+
+.secondary {
+  color: #f6b138;
+}
+
+base {
+  color: #29255c;
+}
+
+.bg-primary {
+  background-color: #633390;
+}
+
+.bg-secondary {
+  background-color: #f6b138;
+}
+
+.bg-base {
+  background-color: #29255c;
+}
+
+.background {
+  background-color: #313131;
+  background-image: radial-gradient(
+    rgba(255, 255, 255, 0.171) 2px,
+    transparent 0
+  );
+  background-size: 30px 30px;
+  background-position: -5px -5px;
+  animation: gradient 800s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: -5px -5px;
+  }
+  50% {
+    background-position: -2px 0;
+  }
+  100% {
+    background-position: -5px -5px;
+  }
+}

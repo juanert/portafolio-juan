@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Juan Rodriguez</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles/general.css" />
+    <link rel="stylesheet" href="./styles/animation.css" />
+  </head>
+  <body class="cursor-default">
+    <nav class="flex justify-between items-center bg-base px-8 py-2 text-white">
+      <div class="flex items-center justify-center">
+        <img
+          src="./images/Logo Juanro Web-02 (1).png"
+          alt="logo"
+          class="w-[75px] cursor-pointer"
+        />
+      </div>
+      <div class="hidden lg:flex items-center justify-center gap-[15px]">
+        <p class="hover:text-gray-300 cursor-pointer">
+          <a href="#intro">Intro</a>
+        </p>
+        <p class="hover:text-gray-300 cursor-pointer">About me</p>
+        <p class="hover:text-gray-300 cursor-pointer">Work</p>
+        <p class="hover:text-gray-300 cursor-pointer">Contact</p>
+      </div>
+      <div class="flex lg:hidden items-center justify-center">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+    <header id="intro" class="background h-[90vh] min-h-[500px]">
+      <div
+        class="h-[90vh] min-h-[500px] z-20 flex flex-col gap-8 items-center justify-center text-center"
+      >
+        <h1 class="animation text-[80px] md:text-[120px] z-20 levitating3">
+          <span class="word">Juan<span class="superscript"></span></span>
+          <span class="word">Rodriguez</span>
+        </h1>
+        <h2 class="developer text-[30px] md:text-[45px] z-20 levitating3">
+          <span class="word"><span class="superscript"></span></span>
+          <span class="word">Web developer</span>
+        </h2>
+      </div>
+      <div class="absolute h-[90vh] min-h-[500px] top-[65px] w-full z-0">
+        <div class="grid grid-cols-12 h-full">
+          <div
+            class="flex col-span-2 flex-col justify-top items-center pl-4 pt-8 md:pl-16 md:pt-24"
+          >
+            <img
+              data-aos="fade-down-right"
+              data-aos-duration="1000"
+              class="w-[120px] levitating"
+              src="./images/wireframe-cylinder.png"
+              alt=""
+            />
+          </div>
+          <div
+            class="col-span-3 flex flex-col justify-end items-center pb-8 md:pb-16"
+          >
+            <img
+              data-aos="zoom-in-down"
+              data-aos-duration="2000"
+              class="w-[160px] levitating2"
+              src="./images/cube.png"
+              alt=""
+            />
+          </div>
+          <div class="col-span-3 flex flex-col items-center justify-start pt-8">
+            <img
+              data-aos="zoom-in-up"
+              data-aos-duration="1000"
+              class="w-[120px] levitating"
+              src="./images/diamond.png"
+              alt=""
+            />
+          </div>
+          <div
+            class="col-span-4 flex flex-col items-end justify-end md:justify-center pb-16 md:pr-16"
+          >
+            <img
+              data-aos="fade-down-left"
+              data-aos-duration="2000"
+              class="w-[120px] levitating2"
+              src="./images/cloud-ball.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <section
+      class="h-[100vh] min-h-[500px] flex flex-col justify-center items-center gap-8 px-8 bg-base"
+    >
+      <h2 class="secondary text-4xl font-bold">About me</h2>
+      <div class="grid grid-cols-3 rounded-[25px] background-animated px-16 text-white">
+        <div class="flex justify-center items-center">
+          <img src="./images/juan.png" alt="" />
+        </div>
+        <div class="col-span-2 flex flex-col justify-center gap-4">
+          <h2 class="text-2xl font-semibold">To make it simple</h2>
+          <p>
+            I'm the CEO and teacher of web programming at Lexpin, I like
+            creating innovative projects which can represent a challenge for me
+            as well working with professional things to always teach and learn
+            and become more professional in my field
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>
